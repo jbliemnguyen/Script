@@ -1,0 +1,3 @@
+﻿Add-PSSnapin "Microsoft.SharePoint.PowerShell" -ErrorAction Stop;
+Restore-SPSite -Identity http://fdc1s-sp23wfed2/sites/ASD_test -Path C:\Users\lnguyen\Desktop\ASD\SiteBackUp\11_17_2014_4_59_44.bak -DatabaseName WFED2_Content_ASD -Force
+#Restore-SPSite -Identity https://test.sp.ferc.gov/asd -Path C:\Users\lnguyen\Desktop\ASD\SiteBackUp\11_03_2014_11_51_16.bak -DatabaseName SPTEST_Content_ASD -Force
